@@ -1,0 +1,6 @@
+{
+  "rules": [
+    { "pathPattern": "/b/*", "apiPath": "/api/actions/buy?mint=*" },
+    { "pathPattern": "/api/actions/**", "apiPath": "/api/actions/**" }
+  ]
+}
